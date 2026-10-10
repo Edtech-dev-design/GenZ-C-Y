@@ -1,0 +1,56 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Cinzel:wght@600;700;800&display=swap');
+
+@layer base {
+  :root {
+    --font-heading: 'Playfair Display', serif;
+    --font-display: 'Cinzel', serif;
+    --font-sans: 'Be Vietnam Pro', sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #fcfbf9;
+    color: #1c1917;
+    overflow-x: hidden;
+  }
+}
+
+.font-serif-title {
+  font-family: var(--font-heading);
+}
+
+.font-cinzel {
+  font-family: var(--font-display);
+}
+
+/* Subtle heritage paper grain texture */
+.heritage-pattern {
+  background-image: radial-gradient(rgba(180, 83, 9, 0.04) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f5f3ef;
+}
+::-webkit-scrollbar-thumb {
+  background: #d6cebe;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a89f91;
+}
+
+/* Smooth vector garment transitions */
+.svg-garment-canvas path,
+.svg-garment-canvas rect,
+.svg-garment-canvas ellipse,
+.svg-garment-canvas circle,
+.svg-garment-canvas polygon {
+  transition: fill 0.32s cubic-bezier(0.16, 1, 0.3, 1), stroke 0.32s cubic-bezier(0.16, 1, 0.3, 1);
+}

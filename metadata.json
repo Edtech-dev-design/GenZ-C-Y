@@ -1,0 +1,6 @@
+{
+  "name": "Việt Phục Remix - Studio Phối Trang Phục Cổ Phong & Gen Z",
+  "description": "Nền tảng phòng thử đồ tương tác và kiểm soát cấu trúc đồ họa phối trang phục truyền thống Việt Nam (Ngũ thân, Nhật bình, Tứ thân, Lemur) giao thoa phong cách Gen Z cùng hệ thống Cảnh báo Lệch Chuẩn và Bảng màu Ngũ Hành.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
